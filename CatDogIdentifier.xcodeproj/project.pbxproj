@@ -13,6 +13,9 @@
 		FA24C69D24230D0800C86FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24C69B24230D0800C86FBC /* Main.storyboard */; };
 		FA24C69F24230D0A00C86FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA24C69E24230D0A00C86FBC /* Assets.xcassets */; };
 		FA24C6A224230D0A00C86FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24C6A024230D0A00C86FBC /* LaunchScreen.storyboard */; };
+		FA24C6AA24230F6D00C86FBC /* test_images in Resources */ = {isa = PBXBuildFile; fileRef = FA24C6A924230F6D00C86FBC /* test_images */; };
+		FA24C6AC2423152F00C86FBC /* CatsAndDogs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA24C6AB2423152F00C86FBC /* CatsAndDogs.mlmodel */; };
+		FA24C6AE242315A000C86FBC /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24C6AD242315A000C86FBC /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FA24C69E24230D0A00C86FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA24C6A124230D0A00C86FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA24C6A324230D0A00C86FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA24C6A924230F6D00C86FBC /* test_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test_images; sourceTree = "<group>"; };
+		FA24C6AB2423152F00C86FBC /* CatsAndDogs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatsAndDogs.mlmodel; sourceTree = "<group>"; };
+		FA24C6AD242315A000C86FBC /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				FA24C69E24230D0A00C86FBC /* Assets.xcassets */,
 				FA24C6A024230D0A00C86FBC /* LaunchScreen.storyboard */,
 				FA24C6A324230D0A00C86FBC /* Info.plist */,
+				FA24C6AB2423152F00C86FBC /* CatsAndDogs.mlmodel */,
+				FA24C6A924230F6D00C86FBC /* test_images */,
+				FA24C6AD242315A000C86FBC /* UIImage+Extensions.swift */,
 			);
 			path = CatDogIdentifier;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA24C6AA24230F6D00C86FBC /* test_images in Resources */,
 				FA24C6A224230D0A00C86FBC /* LaunchScreen.storyboard in Resources */,
 				FA24C69F24230D0A00C86FBC /* Assets.xcassets in Resources */,
 				FA24C69D24230D0800C86FBC /* Main.storyboard in Resources */,
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA24C6AC2423152F00C86FBC /* CatsAndDogs.mlmodel in Sources */,
 				FA24C69A24230D0800C86FBC /* ViewController.swift in Sources */,
+				FA24C6AE242315A000C86FBC /* UIImage+Extensions.swift in Sources */,
 				FA24C69624230D0800C86FBC /* AppDelegate.swift in Sources */,
 				FA24C69824230D0800C86FBC /* SceneDelegate.swift in Sources */,
 			);
